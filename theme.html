@@ -52,12 +52,13 @@
             <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
             {% endfor %}
         </ul>
-        <!-- Categories -->
-    <li><a href="/tag/design" class="{{ set_active('/tag/design') }}">Design</a></li>
-    <li><a href="/tag/web" class="{{ set_active('/tag/web') }}">Web</a></li>
-      <!-- END Categories -->
         {% endif %}
       </div>
+      
+      <!-- Categories -->
+    <li><a href="/tag/design" class="{{ set_active('/tag/design') }}">Design</a></li>
+    <li><a href="/tag/web" class="{{ set_active('/tag/webquest') }}">Webquest</a></li>
+      <!-- END Categories -->
     </header>
 
     <div class="container content">
